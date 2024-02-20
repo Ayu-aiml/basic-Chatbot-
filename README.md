@@ -1,7 +1,7 @@
 # Basic Chatbot using NLP
 This is a basic chatbot implementation using Natural Language Processing (NLP) techniques. The chatbot is designed to converse with users in natural language and respond appropriately based on predefined patterns or rules.
 
-Features
+##Features
 Natural Language Understanding: The chatbot utilizes NLP techniques to understand user input and extract meaning from it.
 Response Generation: Based on the input received, the chatbot generates responses using predefined patterns or rules.
 Simple User Interaction: Users can interact with the chatbot by typing messages in natural language.
