@@ -1,0 +1,105 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there, what medical assistance do you need?",
+        "Greetings! How can I help with your health concerns?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "Take care! Contact us if you need further assistance.",
+        "Goodbye! Stay healthy.",
+        "See you later. Wishing you good health."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": [
+        "You're welcome! Happy to help.",
+        "Anytime! Take care.",
+        "My pleasure. Stay healthy!"
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "I have a headache",
+        "I'm feeling nauseous",
+        "I have a fever",
+        "I'm experiencing chest pain"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Please provide more details about your symptoms.",
+        "It sounds like you need medical attention. Can you describe your symptoms further?",
+        "I recommend seeking medical advice. What other symptoms are you experiencing?"
+      ]
+    },
+    {
+      "tag": "appointments",
+      "patterns": [
+        "I'd like to book an appointment",
+        "Can I schedule a check-up?",
+        "How do I make an appointment?",
+        "I need to see a doctor"
+      ],
+      "responses": [
+        "Sure, I can help with that. Please provide your preferred date and time.",
+        "To book an appointment, please share your details and preferred schedule.",
+        "You can schedule a check-up by providing your availability."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take insurance?",
+        "Do you accept Medicare?",
+        "Can I pay with my health card?",
+        "Are there any consultation fees?"
+      ],
+      "responses": [
+        "We accept various insurances, including Medicare. Please provide your insurance details.",
+        "Yes, we accept most major health insurances and health cards.",
+        "Consultation fees depend on the service. Please provide your insurance details for more information."
+      ]
+    },
+    {
+      "tag": "prescriptions",
+      "patterns": [
+        "Can I get a prescription?",
+        "I need a refill on my medication",
+        "How do I get my medicine?"
+      ],
+      "responses": [
+        "To get a prescription, you need to consult with a doctor. Can I help you schedule an appointment?",
+        "For a medication refill, please provide your prescription details.",
+        "You can get your medicine after a doctor's consultation. Would you like to schedule a visit?"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke!",
+        "Do you know a medical joke?",
+        "Make me laugh!"
+      ],
+      "responses": [
+        "Why did the doctor carry a red pen? In case they needed to draw blood!",
+        "What did the doctor say to the rocket ship? Time to get your booster shot!"
+      ]
+    }
+  ]
+}
